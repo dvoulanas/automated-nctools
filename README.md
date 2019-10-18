@@ -1,5 +1,7 @@
 # automated-nctools
+
 function [status,msg,msgID,mk_path_fin]=rootdir(root,dir_lvl,dir_names)
+
 %This function creates directories relative to specified root directory
 %
 %Inputs:
