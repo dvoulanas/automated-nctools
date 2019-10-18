@@ -8,7 +8,7 @@ This function searches for the nearest k-neighbors to the control points, within
 exact comparison to the grid cells of the gridded data coords of regular lonlat rectagular grid of netcdfs files or makes exact comparisons or each corresponding grid cell
 filename is a cell vector with fullfile name of the netcdf fiel to be accessed
 ctlpoints are Num_ctl_points by 2 matrix. Each row it's a pair of XY coordinates.
-seldist is equal to the rows of ctlpoints, and the number of columns is k, which corresponds to the number of neighbours (not for the 'none' option).\n
+seldist is equal to the rows of ctlpoints, and the number of columns is k, which corresponds to the number of neighbours (not for the 'none' option).
 seldist corresponds to the distance from the original control point when the 'none' option is not selected.
 
 Inputs:
