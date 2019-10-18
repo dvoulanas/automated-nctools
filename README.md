@@ -1,5 +1,7 @@
 # automated-nctools
 
+automated-nctools is a suite of automated MATLAB functions. The first on is the one below.
+
 1. function [ncdata,selpoints,distselind]=ncextract(filename,ctlpoints,DistClass,k)
 
 This function searches for the nearest k-neighbors to the control points, within XY or does
@@ -53,21 +55,15 @@ to do list:
  - GUI
 
 Coded by Voulanas Dimitrios on 2019-05-12
-Copyright (c) 2019 Dimitrios Voulanas. 
+Copyright (c) 2019 Dimitrios Voulanas
 http://https://github.com/dvoulanas
 e-mail: dvoulanas@yahoo.com
 All rights reserved.
 
-Redistribution and use in source and binary forms, with or without
-modification, are permitted provided that the following conditions are 
-met:
-  * Redistributions of source code must retain the above copyright 
-      notice, this list of conditions and the following disclaimer.
-  * Redistributions in binary form must reproduce the above copyright 
-      notice, this list of conditions and the following disclaimer in the 
-      documentation and/or other materials provided with the distribution.
-  * The names of its contributor must not be used to endorse or promote products 
-      derived from this software without specific prior written permission.
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+  * Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+  * Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+  * The names of its contributor must not be used to endorse or promote products derived from this software without specific prior written permission.
 
 THIS SOFTWARE IS PROVIDED BY Dimitrios Voulanas ''AS IS'' AND ANY EXPRESS OR 
 IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES 
